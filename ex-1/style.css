@@ -1,1 +1,35 @@
-/* Start coding here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    background-color: rgb(129, 146, 187);
+    padding: 30px;
+}
+
+.blog-container {
+    width: 400px;
+    background-color: #dde3e9;
+    border: 2px solid rgb(42, 54, 148);
+    padding: 15px 0 10px 20px;
+    margin: 20px;
+}
+
+.blog-container img {
+    width: 80%;
+    height: 150px;
+    background-color: #bbb;
+    display: block;
+    margin: 10px 0;
+}
+
+.blog-container span {
+    font-size: 10px;
+}
+
+.blog-header {
+    font-size: 15px;
+}

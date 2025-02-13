@@ -1,1 +1,41 @@
-/* Start coding here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bodyContainer {
+    height: 100vh;
+}
+
+.firstContainer,
+.secondContainer,
+.thirdContainer {
+    border: 5px solid;
+    height: 100%;
+}
+
+.firstContainer {
+    border-color: grey;
+}
+
+.secondContainer {
+    border-color: rgb(255, 0, 0);
+}
+
+.thirdContainer {
+    border-color: rgb(0, 0, 0);
+}
+
+.content {
+    width: 100%;
+    background-color: rgb(230, 230, 129);
+    text-align: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
