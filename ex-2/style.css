@@ -1,1 +1,32 @@
 /* Start coding here */
+*{
+    padding: 0;
+    margin: 0;
+}
+.text{ 
+    width: 100vw; 
+    height: 100vh;
+    text-align: center;
+    font-size: 72px;
+    display: flex;    
+    flex-direction: row;    
+    justify-content: center;
+    
+    
+}
+.outline{
+    background-color: lightgrey;
+    border: 16px solid lightgrey;
+}
+.two{
+    background-color: black;
+    border: 16px solid black;
+}
+.tree{
+    background-color: khaki;
+}
+.four{
+    border: 24px solid crimson;
+    justify-content: center;
+    align-items: center;
+}
