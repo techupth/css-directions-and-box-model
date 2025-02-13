@@ -1,1 +1,31 @@
 /* Start coding here */
+#commet{
+    width: 100%;
+    background-color: #87a8c5; 
+    color: rgb(28, 131, 199);
+    text-align: left;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+#img-1 {
+    width: fit-content;
+    height: fit-content;
+    padding: 16px;
+    margin: 20px;
+    border: 5px solid #183856;
+    background-color: lightgrey;
+
+    
+}
+
+#img-2 {
+    width: fit-content;
+    height: fit-content;
+    padding: 16px;
+    margin: 20px;
+    border: 5px solid #183856;
+    background-color: lightgrey;
+}
