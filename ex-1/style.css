@@ -1,1 +1,29 @@
-/* Start coding here */
+.header-name {
+    background-color: #92AABD;
+    color: #183B56;
+    font-size: 32px;
+}
+
+body {
+    font-family: "Atkinson Hyperlegible Next", sans-serif;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+.box-content {
+    background-color: #EEEEEE;
+    border: 2px solid #AAAAAA;
+    width: 1000px;
+    height: 500px;
+    margin: 50px;
+    padding: 20px;
+    color: #183B56;
+}
+
+.image {
+    width: 700px;
+    height: 200px;
+}
+

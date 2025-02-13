@@ -1,1 +1,24 @@
-/* Start coding here */
+body{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}/* Start coding here */
+
+.box-outer {
+    border: 16px solid lightgrey;
+}
+
+.box-mid {
+    border: 16px solid black;
+}
+
+.box-inner {
+    border: 24px solid crimson;
+}
+
+.box-text{
+    text-align: center;
+    font-size: 72px;
+    padding: 30px;
+    background-color: khaki;
+}
