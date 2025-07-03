@@ -1,1 +1,23 @@
-/* Start coding here */
+.container{
+    border: 16px solid black;
+    outline: 16px solid lightgray;
+    padding:0;
+}
+
+
+.frame {
+  border: 24px solid crimson;
+  background: khaki;
+  width: 94vw;
+  height: 90vh;
+
+}
+
+h1 {
+  font-size: 72px;
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-weight: bold;
+  text-align: center;
+}

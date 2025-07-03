@@ -1,1 +1,22 @@
-/* Start coding here */
+
+h1 {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: 250px;
+  margin: 24px 18px ;
+}
+
+p {
+  color: black;
+  font-size: 1.2rem;
+  margin: 18px;
+}
