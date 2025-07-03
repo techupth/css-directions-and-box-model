@@ -1,1 +1,21 @@
-/* Start coding here */
+* {
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 72px;
+    padding: 0px 30px 30px 30px;
+    text-align: center;
+}
+
+.container-lightgrey {
+    border : 16px solid lightgrey;
+} 
+
+.container-crimson {
+    border : 24px solid crimson;
+    background-color: khaki;
+} 
+.container-black {
+    border : 16px solid black;
+} 
