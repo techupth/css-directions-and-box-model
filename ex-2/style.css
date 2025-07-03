@@ -1,1 +1,33 @@
-/* Start coding here */
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: lightgrey;
+    padding: 16px;
+    height: 100vh;
+}
+.outer {
+    background-color: black;
+    padding: 16px;
+    height: 100%;
+}
+
+.middle {
+    background-color: crimson;
+    padding:24px 24px 24px 24px;
+    height: 100%;
+
+}
+
+.inner {
+    background-color: khaki;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.header-text {
+    font-size: 72px;
+}
