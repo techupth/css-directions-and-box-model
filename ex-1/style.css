@@ -1,1 +1,33 @@
-/* Start coding here */
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}/* Start coding here */
+
+.header-box{
+    background-color: #7995a0;
+    color: #195577;
+    padding: 10px;
+    height: 100px;
+    h1{
+        margin-left: 20px;
+    }
+}
+
+.content-box{
+    background-color: #bfcdd3;
+    border: 3px solid #195577;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 20px;
+    width: 40%;
+
+    h2{
+        color: #195577;
+    }
+    p{
+        color: #195577;
+        /* margin-top: 10px; */
+    }
+}
+
