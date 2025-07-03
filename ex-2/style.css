@@ -1,1 +1,36 @@
-/* Start coding here */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .outer-border {
+    border: 16px solid lightgrey;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .middle-border {
+    border: 16px solid black;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .inner-border {
+    border: 24px solid crimson;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background-color: khaki;
+    padding-top: 30px;
+    text-align: center; 
+  }
+  
+  h2 {
+    font-size: 72px;
+    font-family: serif;
+    margin: 0;
+  }
+  
