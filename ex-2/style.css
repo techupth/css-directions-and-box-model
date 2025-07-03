@@ -1,1 +1,39 @@
-/* Start coding here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .layer {
+    padding: 16px;
+  }
+
+  .lightgrey {
+    background-color: lightgrey;
+  }
+  
+  .black {
+    background-color: black;
+  }
+  
+  .crimson {
+    padding: 24px;
+    background-color: crimson;
+  }
+  
+  .content {
+    background-color: khaki;
+    padding: 30px; 
+    text-align: center;
+  }
+  
+  .content h1 {
+    font-size: 72px;
+    color: black;
+  }
+  
