@@ -1,1 +1,35 @@
 /* Start coding here */
+* {
+  font-family: 'Sarabun', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: rgb(33, 77, 131);
+  background-color: rgb(151, 174, 196);
+  padding: 20px;
+}
+
+.content {
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 2px solid  rgb(14, 89, 156);
+    width: 50vw;
+    background-color: rgb(218, 236, 252);
+}
+
+.content-card{
+    margin: 20px;
+}
+
+.content-header,.content-image,.content-detail{
+    padding-bottom:10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
