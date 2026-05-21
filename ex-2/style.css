@@ -1,1 +1,19 @@
-/* Start coding here */
+*{
+    box-sizing: border-box;
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    border: solid lightgrey 16px ;
+    background-color: black;
+    padding: 16px;
+}
+.inner-box{
+    width: 100%;
+    height: 100%;
+    border: solid crimson 24px;
+    background-color: khaki;
+    font-size: 72px;
+    text-align: center;
+    padding-top: 30px;
+}
