@@ -1,1 +1,44 @@
 /* Start coding here */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.roboto-Natchanon {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 340;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+#head-title {
+    background-color: rgb(87, 171, 185);
+    width: 100vw;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: rgb(44, 73, 128);
+}
+
+#main-content {
+    padding: 40px;
+}
+
+.blog {
+    background-color: rgb(241, 241, 241);
+    border: black solid 2.5px;
+    width: 25%;
+    padding: 20px;
+    margin: 0px 0px 40px 0px;
+}
+
+.blog-title {
+    color: rgb(44, 73, 128);
+    padding: 0px 0px 15px 0px;
+}
+
+.blog-content {
+    padding: 15px 0px 0px 0px;
+}
