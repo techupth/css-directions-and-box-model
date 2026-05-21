@@ -1,1 +1,23 @@
-/* Start coding here */
+body {
+    margin: 0;
+    height: 100vh;              /* ให้ body เต็มจอ */
+  }
+  
+  .frame {
+    width: 100%;
+    height: 100vh;              /* กรอบเต็มจอ */
+    background-color: yellow;   /* พื้นหลังเหลือง */
+    border: 10px solid red;     /* กรอบแดง */
+    outline: 4px solid black;   /* ขอบดำด้านนอก */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;    /* ข้อความอยู่ด้านบน */
+    padding-top: 40px;
+  }
+  
+  .frame h1 {
+    margin: 0;
+    font-size: 48px;
+    color: black;               /* ตัวอักษรสีดำ */
+  }
+  
