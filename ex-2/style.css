@@ -1,1 +1,36 @@
-/* Start coding here */
+body {
+    margin: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 10px 14px;
+    border: 14px solid lightgrey;
+    border-radius: 36px;
+    background-color: lightgrey;
+  }
+  
+  .black-border {
+    min-height: calc(100vh - 48px);
+    box-sizing: border-box;
+    padding: 14px;
+    background-color: black;
+  }
+  
+  .crimson-border {
+    min-height: calc(100vh - 76px);
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: crimson;
+  }
+  
+  .content {
+    min-height: calc(100vh - 116px);
+    background-color: khaki;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 30px;
+    font-size: 72px;
+    font-weight: normal;
+  }
