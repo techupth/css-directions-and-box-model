@@ -1,1 +1,43 @@
 /* Start coding here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    display: flex;
+    padding: 16px;
+    height: 100vh;
+}
+
+.black-border {
+    background-color: black;
+    display: flex;
+    padding: 16px;
+    width: 100%;
+    height: 100%;
+}
+
+.crimson-border {
+    background-color: crimson;
+    display: flex;
+    padding: 24px;
+    width: 100%;
+    height: 100%;
+}
+
+.content-box {
+    background-color: khaki;
+    display: flex;
+    padding: 24px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 72px;
+    padding: 30px;
+}
