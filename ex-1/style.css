@@ -1,1 +1,18 @@
-/* Start coding here */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    background-color: blue;
+    padding: 20px;
+}
+section{
+    margin: 20px;
+    border: 5px solid cornflowerblue;
+    padding: 10px;
+    width: 500px;
+}
+p {
+    overflow-wrap: break-word;
+}

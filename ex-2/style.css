@@ -1,1 +1,24 @@
-/* Start coding here */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div{
+    border: 10px;
+    height: 100vh;
+}
+.div2{
+    background-color: black;
+    padding: 16px;
+    border: 16px solid lightgrey;
+
+}
+h1{
+    font-size: 72px;
+    margin-top: 30px;
+    background-color: beige;
+    border: 16px solid red;
+    margin: 0px;
+    text-align: center;
+    height: 100%;
+}
