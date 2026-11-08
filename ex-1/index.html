@@ -1,19 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="th">
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css" />
-  <title>CSS Direction and Box Model - Ex 1</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Blog</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <!-- Start coding here -->
-</body>
 
+  <!-- บล็อกกล่องใหญ่หุ้มหน้าเว็บตามภาพดีไซน์ -->
+  <div class="blog-container">
+    
+    <!-- แถวส่วนหัวสีฟ้าสว่าง (Header Bar) -->
+    <div class="blog-header">
+      <h2>Travel Blog</h2>
+    </div>
+
+    <!-- โซนรายการเนื้อหาด้านใน -->
+    <div class="blog-list">
+      
+      <!-- 📘 การ์ดบทความชิ้นที่ 1 -->
+      <article class="blog-card">
+        <h3 class="card-title">คาเฟ่เชียงใหม่น่าเที่ยว 10 อันดับ 2040</h3>
+        <div class="card-body">
+          <img class="card-image-box" src="./image.jpeg" alt="ทิวทัศน์ชนบทในแสงอาทิตย์ยามเย็น">
+          <p class="card-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam condimentum tempus diam, ultricies sollicitudin erat facilisis eget. Vestibulum rhoncus dui vel eros laoreet consectetur. Vivamus eget elementum ligula, vitae pharetra quam. Nullam at ligula sed metu elementum ligula, vitae pharetra quam. Nullam at ligu
+          </p>
+        </div>
+      </article>
+
+      <!-- 📘 การ์ดบทความชิ้นที่ 2 -->
+      <article class="blog-card">
+        <h3 class="card-title">สถานที่น่าเที่ยว 10 อันดับ 2140</h3>
+        <div class="card-body">
+          <img class="card-image-box" src="./image.jpeg" alt="ทิวทัศน์ชนบทในแสงอาทิตย์ยามเย็น">
+          <p class="card-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam condimentum tempus diam, ultricies sollicitudin erat facilisis eget. Vestibulum rhoncus dui vel eros laoreet consectetur. Vivamus eget elementum ligula, vitae pharetra quam. Nullam at ligula sed metu elementum ligula, vitae pharetra quam. Nullam at ligu
+          </p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+</body>
 </html>
